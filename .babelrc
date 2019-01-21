@@ -1,0 +1,13 @@
+{
+  "presets": [  //babel配置都不接收回调方法，所以该文件被序列化json，从下开始执行
+    "env",
+    "es2015",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-runtime",
+    "transform-decorators-legacy"
+  ]
+}
